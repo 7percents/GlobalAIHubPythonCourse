@@ -4,7 +4,8 @@ I created two lists and then merged them. For clarity, I also used the sort meth
 Using a list comprehension, I multiplied all values in the list by 2.
 Lastly, I used a for loop to print the type of each element in the final list.
 '''
-# Answer to Question 1
+
+# Answer to Homework 1
 even_num = list(range(0, 10, 2))
 odd_num = list(range(1, 10, 2))
 # print(even_num)

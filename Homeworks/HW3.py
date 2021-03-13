@@ -1,9 +1,7 @@
-# Explain your work
 """
 I defined two functions named ask_grades and calculate_passing_grade. The former asks the user about the grades of 5 students and saves them in a list. 
 The latter calculates the passing grade for a given student. Then, I created a dictionary to keep the information of these 5 students.
 Lastly, I created a list to store the passing grades that I transferred from the dictionary and sorted its values in descending order. 
-
 """
 
 # Homework 3

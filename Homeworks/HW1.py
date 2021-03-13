@@ -1,4 +1,3 @@
-# Explain your work
 '''
 I created two lists and then merged them. For clarity, I also used the sort method on the merged list so that numbers had an order.
 Using a list comprehension, I multiplied all values in the list by 2.

@@ -1,4 +1,3 @@
-# Explain your work
 # I created 5 CVs as dictionaries and merged them into a single list called 'cvs'. Finally, I printed all 5 CVs on screen.
 
 # Homework 2
@@ -9,7 +8,7 @@ alan_cv = {
     'Contact Information': {
         'Phone': 4407700221197,
         'Address': '78 High Street, Hampton, UK',
-        'Email': 'alanmturing@global.com.uk'
+        'Email': 'alanmturing@global.co.uk'
     },
     'Education': {
         'BA & MA': 'University of Cambridge (1931-1934)',
@@ -41,7 +40,7 @@ stephen_cv = {
     'Contact Information': {
         'Phone': 4407702219097,
         'Address': '6 Little St. Mary\'s Lane, Cambridge, UK',
-        'Email': 'stephenhawking@global.com.uk'
+        'Email': 'stephenhawking@global.co.uk'
     },
     'Education': {
         'BA': 'University of Oxford (1959-1962)',
@@ -57,7 +56,7 @@ sherlock_cv = {
     'Contact Information': {
         'Phone': 4407700909723,
         'Address': '221B Baker Street, London, UK',
-        'Email': 'wsherlocksholmes@global.com.uk'
+        'Email': 'wsherlocksholmes@global.co.uk'
     },
     'Education': {
         'BSc': 'University of Cambridge (2003-2006)'
@@ -71,7 +70,7 @@ john_cv = {
     'Contact Information': {
         'Phone': 4407700900581,
         'Address': '221B Baker Street, London',
-        'Email': 'johnhwatson@global.com.uk'
+        'Email': 'johnhwatson@global.co.uk'
     },
     'Education': {
         'MBBS': 'St Bartholomew\'s Hospital Medical College (1999-2004)'
@@ -86,7 +85,7 @@ cvs = [alan_cv, marie_cv, stephen_cv, sherlock_cv, john_cv]
 for i in range(len(cvs)):
     print('CV Number', i+1)
     for key, value in cvs[i].items():
-        if type(value) is not dict:    # CV dictionaries contained values that were dicts. So I used an if-else loop to print them prettily.
+        if type(value) is not dict:    # CV dictionaries contained values that were dicts. So, I used an if-else loop to print them prettily.
             print('{key}: {value}'.format(key=key, value=value))
         else:
             print(key)

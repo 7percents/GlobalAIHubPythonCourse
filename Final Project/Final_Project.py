@@ -10,7 +10,7 @@ answer1 = 'andrew wiles'
 question2 = 'Complete the following sentence: Once you eliminate the impossible, whatever remains, no matter how improbable, must be the ____.'
 answer2 = 'truth'
 
-question3 = 'What is the common ancestor of all life on Earth?'
+question3 = 'What is the common ancestor of all current life on Earth?'
 answer3 = 'last universal common ancestor'
 
 question4 = 'What is the meaning of "scientia potentia est"?'
@@ -28,11 +28,11 @@ answer7 = 'forty-two'
 question8 = 'What is the popular field that includes deep learning and is a subfield of artificial intelligence?'
 answer8 = 'machine learning'
 
-question9 = 'Which cosmological model states that the Earth revolves around the Sun?'
-answer9 = 'heliocentrism'
+question9 = 'To whom does the saying "A man provided with paper, pencil, and rubber, and subject to strict discipline, is in effect a universal machine." belong?'
+answer9 = 'alan turing'
 
-question10 = 'Who said "A man provided with paper, pencil, and rubber, and subject to strict discipline, is in effect a universal machine"?'
-answer10 = 'alan turing'
+question10 = 'What is the name of NASA\'s rover that landed on Mars on February 18, 2021?'
+answer10 = 'perseverance'
 
 questions = [question1, question2, question3, question4, question5, question6, question7, question8, question9, question10]
 answers = [answer1, answer2, answer3, answer4, answer5, answer6, answer7, answer8, answer9, answer10]
